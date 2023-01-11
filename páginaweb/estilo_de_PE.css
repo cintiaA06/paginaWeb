@@ -1,0 +1,76 @@
+fooster:active
+#form{
+    width:250px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#form p{
+    text-align: center;
+}
+#form label{
+    font-size: 20px;
+}
+input[type="radio"]{
+    display: none;
+
+}
+label{
+    color: gray;
+}
+.calificación{
+ direction: ltr;
+    unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover~label{
+    color: red;
+}
+input[type="radio"]:checked~label{
+    color: red;
+    
+}
+.button
+{
+border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #2e518b; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+font-family: cursive,sans-serif; /*tipografía texto*/
+border-radius: 50px; /*bordes redondos*/
+}
+.button2{
+    border: 1px solid #2e518b;  /*anchura, estilo y color borde*/
+padding: 10px;   /*espacio alrededor texto*/
+background-color: #f1c555;   /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+font-family: cursive,sans-serif; 
+border-radius: 50px; 
+}
+.button3{
+    border: solid;
+    background-color: green;
+    
+}
+#circulo{
+    width: 100px;
+    height: 100px;
+    background: #aaf1a7;
+    border-radius: 100px
+}
+#boton{
+    background: #808080;
+    border-bottom-color: aqua;
+    border: solid;
+}
+#boton2{
+    background-color: red;
+    color: black;
+    border-radius: 90px;
+    font-family: cursive;
+    padding: 10px;
+    
+}

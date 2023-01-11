@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>pagEmpresas</title>
+</head>
+<body>
+    <header> 
+ <p style="text-align: left; font-family: fantasy; font-size:30px;
+"> Working easy &#128204;</p><p style="text-align: center; font-family: cursive;"><a href="p%C3%A1gina%20de%20empleo.html"; style="text-align:center; font-size:20px">&#8634;volver a página pincipal</a>
+       </p>
+       
+       <br>
+  </header>
+   <n>Nombre de la Empresa: </n><br><input type="text" name="NombreC" placeholder="Ingresar Nombre de la Empresa" required> <br><br>
+   <n>Dirección: </n><br><input type="text" name="DireccionE" placeholder="Ingresar Dirección" required> <br><br>
+    Telefono celular: <br><input type="tel" name="telefono" pattern="[0-9]{4}[0-9]{6}" placeholder="Sin 0 y 15"  required> <br><br>
+    
+    Correo Electrónico: <br><input type="email" name="correo" required> <br><br>
+    
+    <h4>Domicilio</h4>
+    
+    Pais: <br><input type="text" name="Pais" placeholder="Ingresar Pais" required> <br><br>
+    
+    Provincia: <br><input type="text" name="Provincia" placeholder="Provincia" required>  Codigo Postal: <input type="text" name="CodigoPostal"> <br><br>
+    
+    Departamento: <br><input type="text" name="Departamento" required> <br><br>
+    
+    Localidad: <br><input type="text" name="Localidad" required> <br>
+    
+    Calle: <br><input type="text" name="Calle" required>   Numero:  <input type="text" name="Numero" > <br><br>
+   <n>Area en la que busca Personal: </n><br>
+    <form>
+      <p><b>Estudios Universitario:</b></p> 
+        <label for="EstudioCursado">selecciona según corresponda:</label>
+  <select id="Estudio" name="Estudio">
+    <option value="LAdministrativo">Lic. en Administración</option>
+    <option value="LLeyes">Abogado</option>
+    <option value="LTecnologia">Lic. en Analisis de Sistemas</option>
+    <option value="LComunicación">Lic. Ciencias de la Comunicación</option>
+    <option value="IInformatica">Ing. en Informática</option>
+    <option value="ICivil">Ing. Civil</option>
+    <option value="IElectromecanico">Ing. Electromecanico</option>
+    <option value="IIndustrial">Ing. Industrial</option>
+    <option value="EUOtros">Otros</option>
+    </select>
+     <form>
+       <p><b>Estudios Terciario:</b></p>
+        <label for="EstudioCursado">selecciona según corresponda:</label>
+  <select id="Estudio" name="Estudio">
+    <option value="TAdministrativo">Tec. en Administración</option>
+    <option value="TSeguridadHig">Tec.Seguridad e Higiene Ambiental</option>
+    <option value="TTecnologia">Tec. Sup. en Desarrollo de Software</option>
+    <option value="TDiseño">Tec. en Diseño</option>
+    <option value="TRedyComunicaciones">Tec. en Redes y Comunicaciones</option>
+    <option value="TMarketing">Tec.en Marketing</option>
+    <option value="TInstyMant">Tec. en Instalaciones y Mantenimiento</option>
+    <option value="TElecInforIndustrial">Tec.en Electricidad e Informática Industrial</option>
+     <option value="ETOtros">Otros</option>
+ <br>
+ </select>
+    </form><br>
+ 
+ 
+ <p>Describa el nivel de Estudio que esta Buscando, así como también la Carrera que busca:</p><br>
+ <textarea name="Descripcion" rows="10" cols="50"></textarea>
+    </form><br>
+    
+    <form>
+   <h5>Elija</h5>
+    <h5> Tiempo disponible de Disponibilidad del Empleado:</h5>
+     <input type="checkbox" id="tiempo1" name="tiempo1" value="tiempoParcial">
+  <label for="tiempo1"> Tiempo parcial</label><br>
+  <input type="checkbox" id="tiempo2" name="tiempo2" value="tiempoCompleto">
+  <label for="tiempo2"> Tiempo Completo</label><br>
+  
+</form>
+    <br>
+    <input id="boton" type="submit" name="Enviar" value="Enviar">     <input id="boton2" type="reset">
+    
+
+    
+
+    
+</body>
+</html>

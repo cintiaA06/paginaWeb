@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Empleado</title>
+    <link rel="stylesheet" href="Empleado.css">
+</head>
+<body style="background-color: beige;">
+    
+      <header> 
+ <p style="text-align: left; font-family: fantasy; font-size:30px;
+"> Working easy &#128204;</p><p style="text-align: center; font-family: cursive;"><a href="p%C3%A1gina%20de%20empleo.html"; style="text-align:center; font-size:20px">&#8634;volver a página pincipal</a>
+       </p>
+       <br>
+  </header>
+       
+       <form action="" style="font-family: cursive;" >
+        
+    <h2>Datos Personales</h2>
+    
+    <n>Nombre: </n><br><input type="text" name="Nombre" placeholder="Ingresar Nombre" required> <br><br>
+    
+    Apellido: <br><input type="text" name="Apellido" placeholder="Ingresar Apellido" required><br><br>
+    
+    Telefono celular: <br><input type="tel" name="telefono" pattern="[0-9]{4}[0-9]{6}" placeholder="Sin 0 y 15"  required> <br><br>
+    
+    Correo Electrónico: <br><input type="email" name="correo" required> <br><br>
+    
+    <h4>Domicilio</h4>
+    
+    Pais: <br><input type="text" name="Pais" placeholder="Ingresar Pais" required> <br><br>
+    
+    Provincia: <br><input type="text" name="Provincia" placeholder="Provincia" required>  Codigo Postal: <input type="text" name="CodigoPostal"> <br><br>
+    
+    Departamento: <br><input type="text" name="Departamento" required> <br><br>
+    
+    Localidad: <br><input type="text" name="Localidad" required> <br>
+    
+    Calle: <br><input type="text" name="Calle" required>   Numero:  <input type="text" name="Numero" > <br><br>
+    
+    
+     <form>
+       Estudios Cursados:<br>
+        <label for="EstudioCursado">selecciona según corresponda:</label>
+  <select id="Estudio" name="Estudio">
+    <option value="Universitario">Universitario</option>
+    <option value="Terciario">Terciario</option>
+    <option value="Secundario">Secundario</option>
+    <option value="Primario">Primario</option>
+  </select>
+  
+       </form>
+       
+        <form>
+      <p><b>Estudios Universitario:</b></p> <br>
+        <label for="EstudioCursado">selecciona según corresponda:</label>
+  <select id="Estudio" name="Estudio">
+    <option value="LAdministrativo">Lic. en Administración</option>
+    <option value="LLeyes">Abogado</option>
+    <option value="LTecnologia">Lic. en Analisis de Sistemas</option>
+    <option value="LComunicación">Lic. Ciencias de la Comunicación</option>
+    <option value="IInformatica">Ing. en Informática</option>
+    <option value="ICivil">Ing. Civil</option>
+    <option value="IElectromecanico">Ing. Electromecanico</option>
+    <option value="IIndustrial">Ing. Industrial</option>
+    <option value="EUOtros">Otros</option>
+
+ <br>
+ </select>
+ <p>Estado Cursado</p>
+    <input type="radio" id="finalizadouniver" name="cursadouniver" value="finalizadouniver">
+    <label for="finalinadouniver">Finalizado</label><br>
+    <input type="radio" id="cursandouniversidad" name="cursadouniver" value="cursandouniversidad">
+    <label for="cursandouniver">Cursando Universidad</label><br>
+    <input type="radio" id="incompletouniver" name="cursadouniver" value="incompletouniver">
+    <label for="incompletouniver">Incompleto</label><br>
+  
+       </form>
+       
+        <form>
+       <p><b>Estudios Terciario:</b></p><br>
+        <label for="EstudioCursado">selecciona según corresponda:</label>
+  <select id="Estudio" name="Estudio">
+    <option value="TAdministrativo">Tec. en Administración</option>
+    <option value="TSeguridadHig">Tec.Seguridad e Higiene Ambiental</option>
+    <option value="TTecnologia">Tec. Sup. en Desarrollo de Software</option>
+    <option value="TDiseño">Tec. en Diseño</option>
+    <option value="TRedyComunicaciones">Tec. en Redes y Comunicaciones</option>
+    <option value="TMarketing">Tec.en Marketing</option>
+    <option value="TInstyMant">Tec. en Instalaciones y Mantenimiento</option>
+    <option value="TElecInforIndustrial">Tec.en Electricidad e Informática Industrial</option>
+     <option value="ETOtros">Otros</option>
+ <br>
+ </select>
+ <p>Estado Cursado</p>
+          
+<input type="radio" id="finalizado" name="estadoCursado" value="finalizado">
+  <label for="finalizado">Finalizado</label><br>
+  <input type="radio" id="cursando" name="estadoCursado" value="cursando">
+  <label for="female">Cursando</label><br>
+  <input type="radio" id="incompleto" name="estadoCursado" value="incompleto">
+  <label for="incompleto">Incompleto</label>
+  
+  
+       </form>
+       
+        <form>
+ <p ><b>Primario</b></p>
+      <input type="radio" id="terminado" name="estadoprimario" value="terminado">
+      <label for="terminado"> Finalizado</label>
+      <input type="radio" id="primarioincompleto" name="estadoprimario" value="primarioincompleto">
+      <label for="primarioincompleto">Primario Incompleto</label>
+      
+      
+  
+  </form>
+      <br>
+       <p><b>Ingrese nombre de Carreras Cursadas y Describalas:</b></p>
+    
+    <textarea name="Descripcion" rows="10" cols="50"></textarea>
+    </form><br>
+    <br>
+    <form>
+  
+        <p>Elige</p>
+    <p> Tiempo disponible</p>
+     <input type="checkbox" id="Ptiempo1" name="Ptiempo1" value="tiempoParcial">
+  <label for="Ptiempo1"> Tiempo parcial</label><br>
+  <input type="checkbox" id="Ptiempo2" name="Ptiempo2" value="tiempoCompleto">
+  <label for="Ptiempo2"> Tiempo Completo</label><br>
+  
+</form><br>
+    <input id="boton" type="submit" name="Enviar" value="Enviar">     <input id="boton2" type="reset">
+    
+
+    
+</body>
+</html>
